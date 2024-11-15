@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drone loader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-page usrlect">
+        <div class="drone-container">
+            <img id="drone-frame" src="dronea.png" >
+            <img class="usrlect r-cw-speed" id="prop1" src="prop1.png" >
+            <img class="usrlect r-ccw-speed" id="prop2" src="prop1.png" >
+            <img class="usrlect r-ccw-speed" id="prop3" src="prop1.png">
+            <img class="usrlect r-cw-speed" id="prop4" src="prop1.png">    
+        </div>
+        <div class="controls">
+            <div class="sec-1">
+                <label id="r1d" for="r1">0</label><input type="range" class="range" id="r1" min="0" max="100">
+                <label id="r2d" for="r2">0</label><input type="range" class="range" id="r2" min="0" max="100">
+                <label id="r3d" for="r3">0</label><input type="range" class="range" id="r3" min="0" max="100">
+                <label id="r4d" for="r4">0</label><input type="range" class="range" id="r4" min="0" max="100">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
